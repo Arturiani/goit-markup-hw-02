@@ -58,6 +58,10 @@ body {
     color: var(--bg-logo-active-color);
 }
 
+.nav-a-active {
+    color: var(--bg-logo-active-color);
+}
+
 .contacts {
     color: var(--font-two-color);
     font-weight: 500;
@@ -147,6 +151,11 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
+    color: var(--font-active-color);
+    background-color: var(--bg-logo-active-color);
+}
+
+.filter-button-active {
     color: var(--font-active-color);
     background-color: var(--bg-logo-active-color);
 }
